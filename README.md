@@ -1,8 +1,8 @@
-# Session ID - Session Title
+# IN263 - Onboard and Manage New Trading Partners Using SAP Integration Suite
 
 ## Description
 
-This repository contains the material for the SAP TechEd 2022 session called Session ID - Session Title.  
+This repository contains the material for the SAP TechEd 2022 session IN263 - Onboard and Manage New Trading Partners Using SAP Integration Suite.  
 
 ## Overview
 

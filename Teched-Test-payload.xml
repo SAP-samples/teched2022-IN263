@@ -1,0 +1,563 @@
+<ORDERS05 xmlns="urn:sap-com:document:sap:idoc:soap:messages">
+   <IDOC BEGIN="1">
+      <EDI_DC40 SEGMENT="1">
+         <TABNAM>EDI_DC40</TABNAM>
+         <DOCNUM>0000000000000002</DOCNUM>
+        <DOCREL>1809_FPS02</DOCREL>
+         <DIRECT>2</DIRECT>
+         <OUTMOD>3</OUTMOD>
+         <IDOCTYP>ORDERS05</IDOCTYP>
+         <MESTYP>ORDERS</MESTYP>
+         <MESCOD>EX</MESCOD>
+         <MESFCT>A48</MESFCT>
+         <STD></STD>
+         <SNDPOR>SUBSYSTEM</SNDPOR>
+         <SNDPRT>KU</SNDPRT>
+         <SNDPRN>GPR_020</SNDPRN>
+         <RCVPOR>SAPMAT</RCVPOR>
+         <RCVPRT>LS</RCVPRT>
+         <RCVPRN>S4XX</RCVPRN>
+		 <RCVLAD>marco.ertel@sap.com</RCVLAD>
+         <CREDAT>20221007</CREDAT>
+         <CRETIM>071312</CRETIM>
+         <REFINT>004301228</REFINT>
+         <REFGRP>4301367</REFGRP>
+         <REFMES>ORDERS05</REFMES>
+      <SERIAL>20221007071312</SERIAL>
+	  </EDI_DC40>
+      <E1EDK01 SEGMENT="1">
+         <ACTION>000</ACTION>
+         <CURCY>USD</CURCY>
+         <RECIPNT_NO>E1</RECIPNT_NO>
+      </E1EDK01>
+      <E1EDK14 SEGMENT="1">
+         <QUALF>013</QUALF>
+         <ORGID>ZPOR</ORGID>
+      </E1EDK14>
+      <E1EDK03 SEGMENT="1">
+         <IDDAT>002</IDDAT>
+         <DATUM>16032022</DATUM>
+      </E1EDK03>
+	  <E1EDK03 SEGMENT="1">
+         <IDDAT>012</IDDAT>
+         <DATUM>16042022</DATUM>
+		 <UZEIT>220422</UZEIT>
+      </E1EDK03>
+      <E1EDKA1 SEGMENT="1">
+         <PARVW>AG</PARVW>
+         <IHREZ>VALVOLIN</IHREZ>
+      </E1EDKA1>
+      <E1EDKA1 SEGMENT="1">
+         <PARVW>WE</PARVW>
+      </E1EDKA1>
+      <E1EDK02 SEGMENT="1">
+         <QUALF>001</QUALF>
+         <BELNR>04123375OP000</BELNR>
+         <DATUM>20211005</DATUM>
+      </E1EDK02>
+      <E1EDP01 SEGMENT="1">
+         <POSEX>00001</POSEX>
+         <MENGE>1</MENGE>
+         <MENEE>CA</MENEE>
+         <E1EDP19 SEGMENT="1">
+            <QUALF>001</QUALF>
+            <IDTNR>VAL</IDTNR>
+         </E1EDP19>
+      </E1EDP01>
+      <E1EDP01 SEGMENT="1">
+         <POSEX>00002</POSEX>
+         <MENGE>1</MENGE>
+         <MENEE>CA</MENEE>
+         <E1EDP19 SEGMENT="1">
+            <QUALF>001</QUALF>
+            <IDTNR>VAL</IDTNR>
+         </E1EDP19>
+      </E1EDP01>
+      <E1EDP01 SEGMENT="1">
+         <POSEX>00003</POSEX>
+         <MENGE>1</MENGE>
+         <MENEE>PA</MENEE>
+         <E1EDP19 SEGMENT="1">
+            <QUALF>001</QUALF>
+            <IDTNR>VAL</IDTNR>
+         </E1EDP19>
+      </E1EDP01>
+      <E1EDP01 SEGMENT="1">
+         <POSEX>00004</POSEX>
+         <MENGE>1</MENGE>
+         <MENEE>PA</MENEE>
+         <E1EDP19 SEGMENT="1">
+            <QUALF>001</QUALF>
+            <IDTNR>VAL</IDTNR>
+         </E1EDP19>
+      </E1EDP01>
+      <E1EDP01 SEGMENT="1">
+         <POSEX>00005</POSEX>
+         <MENGE>1</MENGE>
+         <MENEE>CA</MENEE>
+         <E1EDP19 SEGMENT="1">
+            <QUALF>001</QUALF>
+            <IDTNR>VAL</IDTNR>
+         </E1EDP19>
+      </E1EDP01>
+      <E1EDP01 SEGMENT="1">
+         <POSEX>00006</POSEX>
+         <MENGE>1</MENGE>
+         <MENEE>CA</MENEE>
+         <E1EDP19 SEGMENT="1">
+            <QUALF>001</QUALF>
+            <IDTNR>VAL</IDTNR>
+         </E1EDP19>
+      </E1EDP01>
+      <E1EDP01 SEGMENT="1">
+         <POSEX>00007</POSEX>
+         <MENGE>2</MENGE>
+         <MENEE>CA</MENEE>
+         <E1EDP19 SEGMENT="1">
+            <QUALF>001</QUALF>
+            <IDTNR>VAL</IDTNR>
+         </E1EDP19>
+      </E1EDP01>
+      <E1EDP01 SEGMENT="1">
+         <POSEX>00008</POSEX>
+         <MENGE>2</MENGE>
+         <MENEE>CA</MENEE>
+         <E1EDP19 SEGMENT="1">
+            <QUALF>001</QUALF>
+            <IDTNR>VAL</IDTNR>
+         </E1EDP19>
+      </E1EDP01>
+      <E1EDP01 SEGMENT="1">
+         <POSEX>00009</POSEX>
+         <MENGE>2</MENGE>
+         <MENEE>PA</MENEE>
+         <E1EDP19 SEGMENT="1">
+            <QUALF>001</QUALF>
+            <IDTNR>VAL</IDTNR>
+         </E1EDP19>
+      </E1EDP01>
+      <E1EDP01 SEGMENT="1">
+         <POSEX>00010</POSEX>
+         <MENGE>15</MENGE>
+         <MENEE>PA</MENEE>
+         <E1EDP19 SEGMENT="1">
+            <QUALF>001</QUALF>
+            <IDTNR>VAL</IDTNR>
+         </E1EDP19>
+      </E1EDP01>
+      <E1EDP01 SEGMENT="1">
+         <POSEX>00011</POSEX>
+         <MENGE>7</MENGE>
+         <MENEE>CA</MENEE>
+         <E1EDP19 SEGMENT="1">
+            <QUALF>001</QUALF>
+            <IDTNR>VAL</IDTNR>
+         </E1EDP19>
+      </E1EDP01>
+      <E1EDP01 SEGMENT="1">
+         <POSEX>00012</POSEX>
+         <MENGE>1</MENGE>
+         <MENEE>CA</MENEE>
+         <E1EDP19 SEGMENT="1">
+            <QUALF>001</QUALF>
+            <IDTNR>VAL</IDTNR>
+         </E1EDP19>
+      </E1EDP01>
+      <E1EDP01 SEGMENT="1">
+         <POSEX>00013</POSEX>
+         <MENGE>1</MENGE>
+         <MENEE>CA</MENEE>
+         <E1EDP19 SEGMENT="1">
+            <QUALF>001</QUALF>
+            <IDTNR>VAL</IDTNR>
+         </E1EDP19>
+      </E1EDP01>
+      <E1EDP01 SEGMENT="1">
+         <POSEX>00014</POSEX>
+         <MENGE>1</MENGE>
+         <MENEE>CA</MENEE>
+         <E1EDP19 SEGMENT="1">
+            <QUALF>001</QUALF>
+            <IDTNR>VAL</IDTNR>
+         </E1EDP19>
+      </E1EDP01>
+      <E1EDP01 SEGMENT="1">
+         <POSEX>00015</POSEX>
+         <MENGE>4</MENGE>
+         <MENEE>CA</MENEE>
+         <E1EDP19 SEGMENT="1">
+            <QUALF>001</QUALF>
+            <IDTNR>VAL</IDTNR>
+         </E1EDP19>
+      </E1EDP01>
+      <E1EDP01 SEGMENT="1">
+         <POSEX>00016</POSEX>
+         <MENGE>15</MENGE>
+         <MENEE>CA</MENEE>
+         <E1EDP19 SEGMENT="1">
+            <QUALF>001</QUALF>
+            <IDTNR>ZRX</IDTNR>
+         </E1EDP19>
+      </E1EDP01>
+      <E1EDP01 SEGMENT="1">
+         <POSEX>00017</POSEX>
+         <MENGE>7</MENGE>
+         <MENEE>CA</MENEE>
+         <E1EDP19 SEGMENT="1">
+            <QUALF>001</QUALF>
+            <IDTNR>ZRX</IDTNR>
+         </E1EDP19>
+      </E1EDP01>
+      <E1EDP01 SEGMENT="1">
+         <POSEX>00018</POSEX>
+         <MENGE>1</MENGE>
+         <MENEE>PA</MENEE>
+         <E1EDP19 SEGMENT="1">
+            <QUALF>001</QUALF>
+            <IDTNR>VAL</IDTNR>
+         </E1EDP19>
+      </E1EDP01>
+      <E1EDP01 SEGMENT="1">
+         <POSEX>00019</POSEX>
+         <MENGE>14</MENGE>
+         <MENEE>CA</MENEE>
+         <E1EDP19 SEGMENT="1">
+            <QUALF>001</QUALF>
+            <IDTNR>VAL</IDTNR>
+         </E1EDP19>
+      </E1EDP01>
+      <E1EDP01 SEGMENT="1">
+         <POSEX>00020</POSEX>
+         <MENGE>1</MENGE>
+         <MENEE>CA</MENEE>
+         <E1EDP19 SEGMENT="1">
+            <QUALF>001</QUALF>
+            <IDTNR>VAL</IDTNR>
+         </E1EDP19>
+      </E1EDP01>
+      <E1EDP01 SEGMENT="1">
+         <POSEX>00021</POSEX>
+         <MENGE>1</MENGE>
+         <MENEE>DR</MENEE>
+         <E1EDP19 SEGMENT="1">
+            <QUALF>001</QUALF>
+            <IDTNR>VAL</IDTNR>
+         </E1EDP19>
+      </E1EDP01>
+      <E1EDP01 SEGMENT="1">
+         <POSEX>00022</POSEX>
+         <MENGE>1</MENGE>
+         <MENEE>CA</MENEE>
+         <E1EDP19 SEGMENT="1">
+            <QUALF>001</QUALF>
+            <IDTNR>ZRX</IDTNR>
+         </E1EDP19>
+      </E1EDP01>
+      <E1EDP01 SEGMENT="1">
+         <POSEX>00023</POSEX>
+         <MENGE>1</MENGE>
+         <MENEE>CA</MENEE>
+         <E1EDP19 SEGMENT="1">
+            <QUALF>001</QUALF>
+            <IDTNR>VAL</IDTNR>
+         </E1EDP19>
+      </E1EDP01>
+      <E1EDP01 SEGMENT="1">
+         <POSEX>00024</POSEX>
+         <MENGE>1</MENGE>
+         <MENEE>CA</MENEE>
+         <E1EDP19 SEGMENT="1">
+            <QUALF>001</QUALF>
+            <IDTNR>VAL</IDTNR>
+         </E1EDP19>
+      </E1EDP01>
+      <E1EDP01 SEGMENT="1">
+         <POSEX>00025</POSEX>
+         <MENGE>1</MENGE>
+         <MENEE>CA</MENEE>
+         <E1EDP19 SEGMENT="1">
+            <QUALF>001</QUALF>
+            <IDTNR>VAL</IDTNR>
+         </E1EDP19>
+      </E1EDP01>
+      <E1EDP01 SEGMENT="1">
+         <POSEX>00026</POSEX>
+         <MENGE>41</MENGE>
+         <MENEE>EA</MENEE>
+         <E1EDP19 SEGMENT="1">
+            <QUALF>001</QUALF>
+            <IDTNR>VAL</IDTNR>
+         </E1EDP19>
+      </E1EDP01>
+      <E1EDP01 SEGMENT="1">
+         <POSEX>00027</POSEX>
+         <MENGE>41</MENGE>
+         <MENEE>EA</MENEE>
+         <E1EDP19 SEGMENT="1">
+            <QUALF>001</QUALF>
+            <IDTNR>VAL</IDTNR>
+         </E1EDP19>
+      </E1EDP01>
+      <E1EDP01 SEGMENT="1">
+         <POSEX>00028</POSEX>
+         <MENGE>41</MENGE>
+         <MENEE>EA</MENEE>
+         <E1EDP19 SEGMENT="1">
+            <QUALF>001</QUALF>
+            <IDTNR>VAL</IDTNR>
+         </E1EDP19>
+      </E1EDP01>
+      <E1EDP01 SEGMENT="1">
+         <POSEX>00029</POSEX>
+         <MENGE>40</MENGE>
+         <MENEE>EA</MENEE>
+         <E1EDP19 SEGMENT="1">
+            <QUALF>001</QUALF>
+            <IDTNR>VAL</IDTNR>
+         </E1EDP19>
+      </E1EDP01>
+      <E1EDP01 SEGMENT="1">
+         <POSEX>00030</POSEX>
+         <MENGE>40</MENGE>
+         <MENEE>EA</MENEE>
+         <E1EDP19 SEGMENT="1">
+            <QUALF>001</QUALF>
+            <IDTNR>VAL</IDTNR>
+         </E1EDP19>
+      </E1EDP01>
+      <E1EDP01 SEGMENT="1">
+         <POSEX>00031</POSEX>
+         <MENGE>41</MENGE>
+         <MENEE>EA</MENEE>
+         <E1EDP19 SEGMENT="1">
+            <QUALF>001</QUALF>
+            <IDTNR>VAL</IDTNR>
+         </E1EDP19>
+      </E1EDP01>
+      <E1EDP01 SEGMENT="1">
+         <POSEX>00032</POSEX>
+         <MENGE>7</MENGE>
+         <MENEE>CA</MENEE>
+         <E1EDP19 SEGMENT="1">
+            <QUALF>001</QUALF>
+            <IDTNR>VAL</IDTNR>
+         </E1EDP19>
+      </E1EDP01>
+      <E1EDP01 SEGMENT="1">
+         <POSEX>00033</POSEX>
+         <MENGE>1</MENGE>
+         <MENEE>CA</MENEE>
+         <E1EDP19 SEGMENT="1">
+            <QUALF>001</QUALF>
+            <IDTNR>VAL</IDTNR>
+         </E1EDP19>
+      </E1EDP01>
+      <E1EDP01 SEGMENT="1">
+         <POSEX>00034</POSEX>
+         <MENGE>3</MENGE>
+         <MENEE>CA</MENEE>
+         <E1EDP19 SEGMENT="1">
+            <QUALF>001</QUALF>
+            <IDTNR>VAL</IDTNR>
+         </E1EDP19>
+      </E1EDP01>
+      <E1EDP01 SEGMENT="1">
+         <POSEX>00035</POSEX>
+         <MENGE>1</MENGE>
+         <MENEE>CA</MENEE>
+         <E1EDP19 SEGMENT="1">
+            <QUALF>001</QUALF>
+            <IDTNR>VAL</IDTNR>
+         </E1EDP19>
+      </E1EDP01>
+      <E1EDP01 SEGMENT="1">
+         <POSEX>00036</POSEX>
+         <MENGE>7</MENGE>
+         <MENEE>CA</MENEE>
+         <E1EDP19 SEGMENT="1">
+            <QUALF>001</QUALF>
+            <IDTNR>VAL</IDTNR>
+         </E1EDP19>
+      </E1EDP01>
+      <E1EDP01 SEGMENT="1">
+         <POSEX>00037</POSEX>
+         <MENGE>1</MENGE>
+         <MENEE>CA</MENEE>
+         <E1EDP19 SEGMENT="1">
+            <QUALF>001</QUALF>
+            <IDTNR>VAL</IDTNR>
+         </E1EDP19>
+      </E1EDP01>
+      <E1EDP01 SEGMENT="1">
+         <POSEX>00038</POSEX>
+         <MENGE>7</MENGE>
+         <MENEE>CA</MENEE>
+         <E1EDP19 SEGMENT="1">
+            <QUALF>001</QUALF>
+            <IDTNR>VAL</IDTNR>
+         </E1EDP19>
+      </E1EDP01>
+      <E1EDP01 SEGMENT="1">
+         <POSEX>00039</POSEX>
+         <MENGE>1</MENGE>
+         <MENEE>CA</MENEE>
+         <E1EDP19 SEGMENT="1">
+            <QUALF>001</QUALF>
+            <IDTNR>VAL</IDTNR>
+         </E1EDP19>
+      </E1EDP01>
+      <E1EDP01 SEGMENT="1">
+         <POSEX>00040</POSEX>
+         <MENGE>2</MENGE>
+         <MENEE>CA</MENEE>
+         <E1EDP19 SEGMENT="1">
+            <QUALF>001</QUALF>
+            <IDTNR>VAL</IDTNR>
+         </E1EDP19>
+      </E1EDP01>
+      <E1EDP01 SEGMENT="1">
+         <POSEX>00041</POSEX>
+         <MENGE>2</MENGE>
+         <MENEE>CA</MENEE>
+         <E1EDP19 SEGMENT="1">
+            <QUALF>001</QUALF>
+            <IDTNR>VAL</IDTNR>
+         </E1EDP19>
+      </E1EDP01>
+      <E1EDP01 SEGMENT="1">
+         <POSEX>00042</POSEX>
+         <MENGE>5</MENGE>
+         <MENEE>CA</MENEE>
+         <E1EDP19 SEGMENT="1">
+            <QUALF>001</QUALF>
+            <IDTNR>VAL</IDTNR>
+         </E1EDP19>
+      </E1EDP01>
+      <E1EDP01 SEGMENT="1">
+         <POSEX>00043</POSEX>
+         <MENGE>1</MENGE>
+         <MENEE>CA</MENEE>
+         <E1EDP19 SEGMENT="1">
+            <QUALF>001</QUALF>
+            <IDTNR>VAL</IDTNR>
+         </E1EDP19>
+      </E1EDP01>
+      <E1EDP01 SEGMENT="1">
+         <POSEX>00044</POSEX>
+         <MENGE>5</MENGE>
+         <MENEE>CA</MENEE>
+         <E1EDP19 SEGMENT="1">
+            <QUALF>001</QUALF>
+            <IDTNR>VAL</IDTNR>
+         </E1EDP19>
+      </E1EDP01>
+      <E1EDP01 SEGMENT="1">
+         <POSEX>00045</POSEX>
+         <MENGE>1</MENGE>
+         <MENEE>CA</MENEE>
+         <E1EDP19 SEGMENT="1">
+            <QUALF>001</QUALF>
+            <IDTNR>VAL</IDTNR>
+         </E1EDP19>
+      </E1EDP01>
+      <E1EDP01 SEGMENT="1">
+         <POSEX>00046</POSEX>
+         <MENGE>2</MENGE>
+         <MENEE>CA</MENEE>
+         <E1EDP19 SEGMENT="1">
+            <QUALF>001</QUALF>
+            <IDTNR>VAL</IDTNR>
+         </E1EDP19>
+      </E1EDP01>
+      <E1EDP01 SEGMENT="1">
+         <POSEX>00047</POSEX>
+         <MENGE>2</MENGE>
+         <MENEE>CA</MENEE>
+         <E1EDP19 SEGMENT="1">
+            <QUALF>001</QUALF>
+            <IDTNR>VAL</IDTNR>
+         </E1EDP19>
+      </E1EDP01>
+      <E1EDP01 SEGMENT="1">
+         <POSEX>00048</POSEX>
+         <MENGE>1</MENGE>
+         <MENEE>CA</MENEE>
+         <E1EDP19 SEGMENT="1">
+            <QUALF>001</QUALF>
+            <IDTNR>VAL</IDTNR>
+         </E1EDP19>
+      </E1EDP01>
+      <E1EDP01 SEGMENT="1">
+         <POSEX>00049</POSEX>
+         <MENGE>1</MENGE>
+         <MENEE>CA</MENEE>
+         <E1EDP19 SEGMENT="1">
+            <QUALF>001</QUALF>
+            <IDTNR>VAL</IDTNR>
+         </E1EDP19>
+      </E1EDP01>
+      <E1EDP01 SEGMENT="1">
+         <POSEX>00050</POSEX>
+         <MENGE>1</MENGE>
+         <MENEE>CA</MENEE>
+         <E1EDP19 SEGMENT="1">
+            <QUALF>001</QUALF>
+            <IDTNR>VAL</IDTNR>
+         </E1EDP19>
+      </E1EDP01>
+      <E1EDP01 SEGMENT="1">
+         <POSEX>00051</POSEX>
+         <MENGE>1</MENGE>
+         <MENEE>CA</MENEE>
+         <E1EDP19 SEGMENT="1">
+            <QUALF>001</QUALF>
+            <IDTNR>VAL</IDTNR>
+         </E1EDP19>
+      </E1EDP01>
+      <E1EDP01 SEGMENT="1">
+         <POSEX>00052</POSEX>
+         <MENGE>1</MENGE>
+         <MENEE>CA</MENEE>
+         <E1EDP19 SEGMENT="1">
+            <QUALF>001</QUALF>
+            <IDTNR>VAL</IDTNR>
+         </E1EDP19>
+      </E1EDP01>
+      <E1EDP01 SEGMENT="1">
+         <POSEX>00053</POSEX>
+         <MENGE>2</MENGE>
+         <MENEE>CA</MENEE>
+         <E1EDP19 SEGMENT="1">
+            <QUALF>001</QUALF>
+            <IDTNR>VAL</IDTNR>
+         </E1EDP19>
+      </E1EDP01>
+      <E1EDP01 SEGMENT="1">
+         <POSEX>00054</POSEX>
+         <MENGE>3</MENGE>
+         <MENEE>CA</MENEE>
+         <E1EDP19 SEGMENT="1">
+            <QUALF>001</QUALF>
+            <IDTNR>VAL</IDTNR>
+         </E1EDP19>
+      </E1EDP01>
+      <E1EDP01 SEGMENT="1">
+         <POSEX>00055</POSEX>
+         <MENGE>16</MENGE>
+         <MENEE>CA</MENEE>
+         <E1EDP19 SEGMENT="1">
+            <QUALF>001</QUALF>
+            <IDTNR>VAL</IDTNR>
+         </E1EDP19>
+      </E1EDP01>
+      <E1EDP01 SEGMENT="1">
+         <POSEX>00056</POSEX>
+         <MENGE>2</MENGE>
+         <MENEE>CA</MENEE>
+         <E1EDP19 SEGMENT="1">
+            <QUALF>001</QUALF>
+            <IDTNR>VAL</IDTNR>
+         </E1EDP19>
+      </E1EDP01>
+   </IDOC>
+</ORDERS05>

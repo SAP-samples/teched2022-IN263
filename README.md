@@ -9,10 +9,6 @@ This repository contains the material for the SAP TechEd 2022 session IN263 - On
 All needed information can be found in the [pdf](https://github.com/SAP-samples/teched2022-IN263/blob/main/IN263%20-%20Onboard%20and%20Manage%20New%20Trading%20Partners.pdf)
 The payload for the MAG simulation (chapter 2.3) can be found here: [Teched-Test-payload.xml](https://raw.githubusercontent.com/SAP-samples/teched2022-IN263/main/Teched-Test-payload.xml?token=GHSAT0AAAAAAB2EJDQ5FXX7273NUDEORCVQY3CRDDA)
 
-**IMPORTANT**
-
-Your repo must contain the .reuse and LICENSES folder and the License section below. DO NOT REMOVE the section or folders/files. Also, remove all unused template assets(images, folders, etc) from the exercises folder. 
-
 ## How to obtain support
 
 Support for the content in this repository is available during the actual time of the online session for which this content has been designed. Otherwise, you may request support via the [Issues](../../issues) tab.
